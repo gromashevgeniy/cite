@@ -1,0 +1,141 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.containerHead{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+body{
+  margin:0;
+}
+
+  .header {
+    background-image: url(../img/designer_1.jpg);
+    min-height: 1161px;
+    background-repeat: no-repeat;
+    background-position:417px -1px;
+  }
+  .bodyMargin {
+    padding: 21px 244px 0px 165px;
+  }
+  .item {
+  }
+  .item1 {
+    color:#505F98;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    flex-grow:1;
+  }
+  .item2 {
+    color:#505F98;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    flex-grow:1;
+    text-align: center;
+    
+  }
+  .item3 {
+    color:#505F98;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    flex-grow:1;
+    text-align: center;
+  }
+  .item4 {
+    color: #37447E;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 26px;
+    flex-grow:100;
+    text-align: center;
+    margin-top: -4px;
+    
+  
+  }
+  .item5 {
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+    margin-top: -4px;
+    
+  }
+  .button__BuyNow {
+    background-color: #111b47;
+    color: white;
+    width: 160px;
+    height: 26px;
+  }
+  .mainTextBox {
+    padding-top: 224px;
+    
+    max-width: 540px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+  }
+  .subTextBox {
+    max-width: 540px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+  }
+
+
+  .containerHeadTwo{
+    display: block;
+Margin: 0 auto;
+text-align: center;
+padding: 1.5em 2em;
+
+  }
+
+  .button_LearnMore {
+    border: 1px solid black;
+    width:189px;
+    height: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    
+  }
+  
+  .button__PurchaseUIKit{
+
+    align-self: center;
+    background-color: #111b47;
+    color: white;
+    width: 189px;
+    height: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+  }
