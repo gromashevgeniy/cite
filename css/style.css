@@ -1,3 +1,4 @@
+
 .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -19,7 +20,10 @@
   display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 10px;
 }
+
 body{
   margin:0;
 }
@@ -28,8 +32,11 @@ body{
     background-image: url(../img/designer_1.jpg);
     min-height: 1161px;
     background-repeat: no-repeat;
-    background-position:417px -1px;
+    
+    background-position-x: 100%;
   }
+  
+
   .bodyMargin {
     padding: 21px 244px 0px 165px;
   }
@@ -98,6 +105,9 @@ body{
     font-weight: 500;
     font-style: normal;
     font-size: 50px;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+
   }
   .subTextBox {
     max-width: 540px;
@@ -105,37 +115,45 @@ body{
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
+    border-radius: 1.2em;
+
+    backdrop-filter: blur(10px);
   }
 
 
   .containerHeadTwo{
-    display: block;
+    display: flex;
 Margin: 0 auto;
 text-align: center;
-padding: 1.5em 2em;
+
 
   }
 
   .button_LearnMore {
+    margin: .5em;
+    padding: .5em 1em;
     border: 1px solid black;
-    width:189px;
-    height: 36px;
+    /* width: 189px; */
+    /* height: auto; */
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 16px;
-    
-  }
+  
+
+    backdrop-filter: blur(10px);
+}
   
   .button__PurchaseUIKit{
 
+    padding: .5em 1em;
     align-self: center;
     background-color: #111b47;
     color: white;
-    width: 189px;
-    height: 36px;
+    /* width: 189px; */
+    /* height: 36px; */
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 16px;
-  }
+}
